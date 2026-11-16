@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# Models
+models/*.joblib
+models/*.pth
+models/*.pkl
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Data
+ml/data/*.csv
+ml/data/*.npy
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Node Modules
+node_modules/
+frontend/node_modules/
+
+# ML Large Files
+*.h5
+*.pickle
+*.tflite

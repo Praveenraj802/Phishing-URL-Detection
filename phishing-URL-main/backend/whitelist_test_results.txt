@@ -1,0 +1,35 @@
+﻿[32m2026-02-10 19:52:17[0m | [33m[1mWARNING [0m | [36mapp.models.predictor[0m:[36m_load_models[0m - [33m[1mFeature classifier not found at models\feature_classifier.joblib[0m
+[32m2026-02-10 19:52:17[0m | [33m[1mWARNING [0m | [36mapp.models.predictor[0m:[36m_load_models[0m - [33m[1mNo models loaded - using rule-based fallback[0m
+LEGITIMATE URLs:
+[32m2026-02-10 19:52:17[0m | [33m[1mWARNING [0m | [36mapp.models.predictor[0m:[36mpredict[0m - [33m[1mUsing rule-based fallback for prediction[0m
+[32m2026-02-10 19:52:17[0m | [1mINFO    [0m | [36mapp.models.predictor[0m:[36mpredict[0m - [1mPrediction: legitimate (confidence: 0.1500) in 22.79ms[0m
+https://www.paypal.com                             LEGITIMATE
+[32m2026-02-10 19:52:17[0m | [33m[1mWARNING [0m | [36mapp.models.predictor[0m:[36mpredict[0m - [33m[1mUsing rule-based fallback for prediction[0m
+[32m2026-02-10 19:52:17[0m | [1mINFO    [0m | [36mapp.models.predictor[0m:[36mpredict[0m - [1mPrediction: legitimate (confidence: 0.1500) in 0.24ms[0m
+https://www.netflix.com                            LEGITIMATE
+[32m2026-02-10 19:52:17[0m | [33m[1mWARNING [0m | [36mapp.models.predictor[0m:[36mpredict[0m - [33m[1mUsing rule-based fallback for prediction[0m
+[32m2026-02-10 19:52:17[0m | [1mINFO    [0m | [36mapp.models.predictor[0m:[36mpredict[0m - [1mPrediction: legitimate (confidence: 0.1500) in 0.18ms[0m
+https://www.google.com                             LEGITIMATE
+[32m2026-02-10 19:52:17[0m | [33m[1mWARNING [0m | [36mapp.models.predictor[0m:[36mpredict[0m - [33m[1mUsing rule-based fallback for prediction[0m
+[32m2026-02-10 19:52:17[0m | [1mINFO    [0m | [36mapp.models.predictor[0m:[36mpredict[0m - [1mPrediction: legitimate (confidence: 0.1500) in 0.17ms[0m
+https://www.amazon.com                             LEGITIMATE
+[32m2026-02-10 19:52:17[0m | [33m[1mWARNING [0m | [36mapp.models.predictor[0m:[36mpredict[0m - [33m[1mUsing rule-based fallback for prediction[0m
+[32m2026-02-10 19:52:17[0m | [1mINFO    [0m | [36mapp.models.predictor[0m:[36mpredict[0m - [1mPrediction: legitimate (confidence: 0.1500) in 0.13ms[0m
+https://www.bankofamerica.com                      LEGITIMATE
+
+PHISHING URLs:
+[32m2026-02-10 19:52:17[0m | [33m[1mWARNING [0m | [36mapp.models.predictor[0m:[36mpredict[0m - [33m[1mUsing rule-based fallback for prediction[0m
+[32m2026-02-10 19:52:17[0m | [1mINFO    [0m | [36mapp.models.predictor[0m:[36mpredict[0m - [1mPrediction: phishing (confidence: 0.7000) in 0.13ms[0m
+http://paypal-security.com                         PHISHING
+[32m2026-02-10 19:52:17[0m | [33m[1mWARNING [0m | [36mapp.models.predictor[0m:[36mpredict[0m - [33m[1mUsing rule-based fallback for prediction[0m
+[32m2026-02-10 19:52:17[0m | [33m[1mWARNING [0m | [36mapp.models.predictor[0m:[36m_rule_based_prediction[0m - [33m[1mTyposquatting detected - automatic phishing verdict[0m
+[32m2026-02-10 19:52:17[0m | [1mINFO    [0m | [36mapp.models.predictor[0m:[36mpredict[0m - [1mPrediction: phishing (confidence: 0.8500) in 0.53ms[0m
+http://g00gle.com                                  PHISHING
+[32m2026-02-10 19:52:17[0m | [33m[1mWARNING [0m | [36mapp.models.predictor[0m:[36mpredict[0m - [33m[1mUsing rule-based fallback for prediction[0m
+[32m2026-02-10 19:52:17[0m | [33m[1mWARNING [0m | [36mapp.models.predictor[0m:[36m_rule_based_prediction[0m - [33m[1mTyposquatting detected - automatic phishing verdict[0m
+[32m2026-02-10 19:52:17[0m | [1mINFO    [0m | [36mapp.models.predictor[0m:[36mpredict[0m - [1mPrediction: phishing (confidence: 0.8500) in 0.86ms[0m
+http://amaz0n-support.in                           PHISHING
+[32m2026-02-10 19:52:17[0m | [33m[1mWARNING [0m | [36mapp.models.predictor[0m:[36mpredict[0m - [33m[1mUsing rule-based fallback for prediction[0m
+[32m2026-02-10 19:52:17[0m | [33m[1mWARNING [0m | [36mapp.models.predictor[0m:[36m_rule_based_prediction[0m - [33m[1mTyposquatting detected - automatic phishing verdict[0m
+[32m2026-02-10 19:52:17[0m | [1mINFO    [0m | [36mapp.models.predictor[0m:[36mpredict[0m - [1mPrediction: phishing (confidence: 0.8500) in 0.50ms[0m
+http://faceeebook.com                              PHISHING

@@ -1,0 +1,30 @@
+# Simplified Requirements - Core Dependencies Only
+# Install with: pip install -r requirements-minimal.txt
+
+# API Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+python-multipart
+pydantic>=2.0.0
+pydantic-settings
+
+# Machine Learning  
+scikit-learn
+xgboost
+numpy
+pandas
+joblib
+
+# Feature Engineering
+validators
+tldextract
+
+# Logging
+loguru
+
+# Optional (install separately if needed)
+# pytest
+# httpx
+# sqlalchemy
+# python-jose
+# passlib

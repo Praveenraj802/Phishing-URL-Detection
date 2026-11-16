@@ -1,0 +1,72 @@
+﻿======================================================================
+SIMPLE PHISHING URL DETECTION TEST
+======================================================================
+[32m2026-02-10 11:54:30[0m | [1mINFO    [0m | [36mapp.models.predictor[0m:[36m_load_models[0m - [1mLoaded feature classifier from models\feature_classifier.joblib[0m
+[32m2026-02-10 11:54:30[0m | [1mINFO    [0m | [36mapp.models.predictor[0m:[36m_load_models[0m - [1mModels loaded successfully[0m
+[ERROR] https://faceeebook.com
+      Error: Invalid URL format: 
+[ERROR] https://gooogle.com
+      Error: Invalid URL format: 
+[ERROR] http://amaz0n.com
+      Error: Invalid URL format: 
+[ERROR] http://g00gle.com
+      Error: Invalid URL format: 
+[ERROR] https://facebok.com
+      Error: Invalid URL format: 
+[ERROR] http://amazon-verify.com
+      Error: Invalid URL format: 
+[ERROR] http://paypal-secure.com
+      Error: Invalid URL format: 
+[ERROR] http://amaz0n-support.in
+      Error: Invalid URL format: 
+[ERROR] http://192.168.1.100/login
+      Error: Invalid URL format: 
+[ERROR] http://bit.ly/2xYz3aB
+      Error: Invalid URL format: 
+
+======================================================================
+RESULTS: 0/10 passed (0.0%)
+======================================================================
+
+FAILED URLS (Incorrectly marked as safe):
+----------------------------------------------------------------------
+  https://faceeebook.com
+    Description: Invalid URL format: 
+    Got: ERROR (Expected: phishing)
+
+  https://gooogle.com
+    Description: Invalid URL format: 
+    Got: ERROR (Expected: phishing)
+
+  http://amaz0n.com
+    Description: Invalid URL format: 
+    Got: ERROR (Expected: phishing)
+
+  http://g00gle.com
+    Description: Invalid URL format: 
+    Got: ERROR (Expected: phishing)
+
+  https://facebok.com
+    Description: Invalid URL format: 
+    Got: ERROR (Expected: phishing)
+
+  http://amazon-verify.com
+    Description: Invalid URL format: 
+    Got: ERROR (Expected: phishing)
+
+  http://paypal-secure.com
+    Description: Invalid URL format: 
+    Got: ERROR (Expected: phishing)
+
+  http://amaz0n-support.in
+    Description: Invalid URL format: 
+    Got: ERROR (Expected: phishing)
+
+  http://192.168.1.100/login
+    Description: Invalid URL format: 
+    Got: ERROR (Expected: phishing)
+
+  http://bit.ly/2xYz3aB
+    Description: Invalid URL format: 
+    Got: ERROR (Expected: phishing)
+

@@ -1,0 +1,401 @@
+﻿[32m2026-02-10 11:45:23[0m | [1mINFO    [0m | [36mapp.models.predictor[0m:[36m_load_models[0m - [1mLoaded feature classifier from models\feature_classifier.joblib[0m
+[32m2026-02-10 11:45:23[0m | [1mINFO    [0m | [36mapp.models.predictor[0m:[36m_load_models[0m - [1mModels loaded successfully[0m
+================================================================================
+PHISHING URL DETECTION TEST SUITE
+================================================================================
+
+
+Testing Category: Typosquatting - Character Repetition
+--------------------------------------------------------------------------------
+[ERROR] | https://faceeebook.com
+     Error: Invalid URL format: 
+[ERROR] | https://gooogle.com
+     Error: Invalid URL format: 
+[ERROR] | https://twittter.com
+     Error: Invalid URL format: 
+[ERROR] | https://amazoon.com
+     Error: Invalid URL format: 
+[ERROR] | https://payypal.com
+     Error: Invalid URL format: 
+
+Testing Category: Typosquatting - Character Substitution
+--------------------------------------------------------------------------------
+[ERROR] | http://amaz0n.com
+     Error: Invalid URL format: 
+[ERROR] | http://g00gle.com
+     Error: Invalid URL format: 
+[ERROR] | http://micr0soft.com
+     Error: Invalid URL format: 
+[ERROR] | http://paypa1.com
+     Error: Invalid URL format: 
+[ERROR] | http://netf1ix.com
+     Error: Invalid URL format: 
+
+Testing Category: Typosquatting - Simple Misspelling
+--------------------------------------------------------------------------------
+[ERROR] | https://facebok.com
+     Error: Invalid URL format: 
+[ERROR] | https://googel.com
+     Error: Invalid URL format: 
+[ERROR] | https://amazom.com
+     Error: Invalid URL format: 
+[ERROR] | https://instgram.com
+     Error: Invalid URL format: 
+[ERROR] | https://aplle.com
+     Error: Invalid URL format: 
+
+Testing Category: Brand + Suspicious Keywords
+--------------------------------------------------------------------------------
+[ERROR] | http://amazon-verify.com
+     Error: Invalid URL format: 
+[ERROR] | http://paypal-secure.com
+     Error: Invalid URL format: 
+[ERROR] | http://facebook-login.com
+     Error: Invalid URL format: 
+[ERROR] | http://apple-support.com
+     Error: Invalid URL format: 
+[ERROR] | http://netflix-billing.com
+     Error: Invalid URL format: 
+[ERROR] | http://microsoft-security.com
+     Error: Invalid URL format: 
+[ERROR] | http://google-account-recovery.com
+     Error: Invalid URL format: 
+
+Testing Category: Hyphenated Compound Fake Domains
+--------------------------------------------------------------------------------
+[ERROR] | http://amaz0n-support.in
+     Error: Invalid URL format: 
+[ERROR] | http://paypal-verify-account.com
+     Error: Invalid URL format: 
+[ERROR] | http://secure-facebook-login.com
+     Error: Invalid URL format: 
+[ERROR] | http://apple-id-unlock.com
+     Error: Invalid URL format: 
+[ERROR] | http://netflix-payment-update.com
+     Error: Invalid URL format: 
+
+Testing Category: IP Address URLs
+--------------------------------------------------------------------------------
+[ERROR] | http://192.168.1.100/login
+     Error: Invalid URL format: 
+[ERROR] | http://123.45.67.89/paypal
+     Error: Invalid URL format: 
+[ERROR] | http://8.8.8.8/secure
+     Error: Invalid URL format: 
+
+Testing Category: URL Shorteners (Suspicious)
+--------------------------------------------------------------------------------
+[ERROR] | http://bit.ly/2xYz3aB
+     Error: Invalid URL format: 
+[ERROR] | http://tinyurl.com/suspicious
+     Error: Invalid URL format: 
+[ERROR] | http://goo.gl/abcdef
+     Error: Invalid URL format: 
+
+Testing Category: Suspicious TLDs
+--------------------------------------------------------------------------------
+[ERROR] | http://amazon.tk
+     Error: Invalid URL format: 
+[ERROR] | http://paypal.ml
+     Error: Invalid URL format: 
+[ERROR] | http://facebook.ga
+     Error: Invalid URL format: 
+[ERROR] | http://apple.cf
+     Error: Invalid URL format: 
+
+Testing Category: Multiple Suspicious Indicators
+--------------------------------------------------------------------------------
+[ERROR] | http://secure-paypal-verify.tk
+     Error: Invalid URL format: 
+[ERROR] | http://facebook-account-recovery.ml
+     Error: Invalid URL format: 
+[ERROR] | http://apple-icloud-unlock.ga
+     Error: Invalid URL format: 
+[ERROR] | http://amazon-prize-winner.cf
+     Error: Invalid URL format: 
+
+Testing Category: Subdomain Abuse
+--------------------------------------------------------------------------------
+[ERROR] | http://paypal.fake-site.com
+     Error: Invalid URL format: 
+[ERROR] | http://login.amazon.phishing.net
+     Error: Invalid URL format: 
+[ERROR] | http://secure.facebook.malicious.org
+     Error: Invalid URL format: 
+
+================================================================================
+TEST SUMMARY
+================================================================================
+Total Tests:  44
+Passed:       0 (0.0%)
+Failed:       44 (100.0%)
+
+================================================================================
+FAILED TESTS - URLs INCORRECTLY MARKED AS SAFE
+================================================================================
+
+1. Category: Typosquatting - Character Repetition
+   URL: https://faceeebook.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+2. Category: Typosquatting - Character Repetition
+   URL: https://gooogle.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+3. Category: Typosquatting - Character Repetition
+   URL: https://twittter.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+4. Category: Typosquatting - Character Repetition
+   URL: https://amazoon.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+5. Category: Typosquatting - Character Repetition
+   URL: https://payypal.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+6. Category: Typosquatting - Character Substitution
+   URL: http://amaz0n.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+7. Category: Typosquatting - Character Substitution
+   URL: http://g00gle.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+8. Category: Typosquatting - Character Substitution
+   URL: http://micr0soft.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+9. Category: Typosquatting - Character Substitution
+   URL: http://paypa1.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+10. Category: Typosquatting - Character Substitution
+   URL: http://netf1ix.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+11. Category: Typosquatting - Simple Misspelling
+   URL: https://facebok.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+12. Category: Typosquatting - Simple Misspelling
+   URL: https://googel.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+13. Category: Typosquatting - Simple Misspelling
+   URL: https://amazom.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+14. Category: Typosquatting - Simple Misspelling
+   URL: https://instgram.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+15. Category: Typosquatting - Simple Misspelling
+   URL: https://aplle.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+16. Category: Brand + Suspicious Keywords
+   URL: http://amazon-verify.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+17. Category: Brand + Suspicious Keywords
+   URL: http://paypal-secure.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+18. Category: Brand + Suspicious Keywords
+   URL: http://facebook-login.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+19. Category: Brand + Suspicious Keywords
+   URL: http://apple-support.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+20. Category: Brand + Suspicious Keywords
+   URL: http://netflix-billing.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+21. Category: Brand + Suspicious Keywords
+   URL: http://microsoft-security.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+22. Category: Brand + Suspicious Keywords
+   URL: http://google-account-recovery.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+23. Category: Hyphenated Compound Fake Domains
+   URL: http://amaz0n-support.in
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+24. Category: Hyphenated Compound Fake Domains
+   URL: http://paypal-verify-account.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+25. Category: Hyphenated Compound Fake Domains
+   URL: http://secure-facebook-login.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+26. Category: Hyphenated Compound Fake Domains
+   URL: http://apple-id-unlock.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+27. Category: Hyphenated Compound Fake Domains
+   URL: http://netflix-payment-update.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+28. Category: IP Address URLs
+   URL: http://192.168.1.100/login
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+29. Category: IP Address URLs
+   URL: http://123.45.67.89/paypal
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+30. Category: IP Address URLs
+   URL: http://8.8.8.8/secure
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+31. Category: URL Shorteners (Suspicious)
+   URL: http://bit.ly/2xYz3aB
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+32. Category: URL Shorteners (Suspicious)
+   URL: http://tinyurl.com/suspicious
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+33. Category: URL Shorteners (Suspicious)
+   URL: http://goo.gl/abcdef
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+34. Category: Suspicious TLDs
+   URL: http://amazon.tk
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+35. Category: Suspicious TLDs
+   URL: http://paypal.ml
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+36. Category: Suspicious TLDs
+   URL: http://facebook.ga
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+37. Category: Suspicious TLDs
+   URL: http://apple.cf
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+38. Category: Multiple Suspicious Indicators
+   URL: http://secure-paypal-verify.tk
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+39. Category: Multiple Suspicious Indicators
+   URL: http://facebook-account-recovery.ml
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+40. Category: Multiple Suspicious Indicators
+   URL: http://apple-icloud-unlock.ga
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+41. Category: Multiple Suspicious Indicators
+   URL: http://amazon-prize-winner.cf
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+42. Category: Subdomain Abuse
+   URL: http://paypal.fake-site.com
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+43. Category: Subdomain Abuse
+   URL: http://login.amazon.phishing.net
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+44. Category: Subdomain Abuse
+   URL: http://secure.facebook.malicious.org
+   Prediction: ERROR (Expected: phishing)
+   Confidence: 0.00%
+   Error: Invalid URL format: 
+
+================================================================================
